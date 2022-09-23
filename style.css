@@ -1,0 +1,85 @@
+*{
+    margin: 0;;
+    text-decoration: none;   
+}
+.formBody{
+    background-color: #efe;
+    padding: 4rem 2rem;
+    display: grid;
+    margin: 10vh auto 0 auto;
+    width: fit-content;
+    justify-content: center;
+    box-shadow: 2px 2px 1rem #221;
+    height: max-content;
+    overflow: hidden;
+}
+.toggleBtn{
+    display: flex;
+    border: 1px solid #346894;
+    border-radius: 2rem;
+    width: fit-content;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+.btn{
+    width: 30px;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    height: 20px;
+    z-index: 2;
+}
+.btn:first-of-type{
+    margin-right: 1rem;
+}
+.active{
+    transition: 500ms;
+    background-color: #346894;
+    padding: 1rem 2.5rem;
+    width: 30px;
+    border-radius: 2rem;
+    position: absolute;
+    height: 20px;
+    left: 0;
+    z-index: 1;
+}
+.social{
+    height: 40px;
+}
+.mover{
+    display: flex;
+    width: 100%;
+}
+.form{
+    width: 300px;
+    display: flex;
+    position: relative;
+    padding: 1rem 2rem;
+    height: 300px;
+}
+.login, .signup{
+    transition: all 500ms;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    right: 40px;
+}
+.login input, .signup input{
+    width: 270px;
+    align-self: center;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    border: none;
+    box-shadow: 2px 2px 1rem #221;
+    border-bottom: 1px solid #346894;
+}
+.login .btn, .signup .btn{
+    width: fit-content;
+    align-self: center;
+    background-color: #346894;
+}
+.signup{
+    right: 400px;
+}
